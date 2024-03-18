@@ -32,7 +32,7 @@ const loginAdmin = async (request, response, next) => {
           // Throw error if email or password is incorrect
           throw new Error('Invalid Email or Password!');
         }
-        //adding a comment
+       
       })
       // Catch error
       .catch((error) => {
